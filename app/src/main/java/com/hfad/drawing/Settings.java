@@ -10,8 +10,10 @@ import android.app.AlertDialog;
 
 import java.util.ArrayList;
 
+// Settings activity
 public class Settings extends Activity {
 
+    // OnCreate
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +22,8 @@ public class Settings extends Activity {
         thickSpin.setSelection(4);
     }
 
+    // When ready to draw, extract values from spinners and set them
+    // in DrawingAttributes
     public void onClickCanvas(View view) {
 
         Spinner spinner = findViewById(R.id.spinner);
@@ -52,6 +56,7 @@ public class Settings extends Activity {
         startActivity(intent);
     }
 
+    // Used to clear canvas
     public void onClickClear(View view) {
         AlertDialog.Builder aDB = new AlertDialog.Builder(this);
         aDB.setMessage("Are you sure you want to clear the canvas?");

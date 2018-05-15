@@ -5,6 +5,7 @@ import android.graphics.Point;
 import android.os.Bundle;
 import android.view.Display;
 
+// Canvas for drawing
 public class Canvas extends Activity {
 
     @Override
