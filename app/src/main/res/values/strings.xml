@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Drawing</string>
+    <string-array name="thickness_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="color_array">
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+    </string-array>
+
+    <string-array name="mode_array">
+        <item>Line</item>
+        <item>Straight Line</item>
+        <item>Rectangle</item>
+        <item>Oval</item>
+        <item>Drag Shapes</item>
+        <item>Ball</item>
+    </string-array>
+    <string name="draw">Draw</string>
+    <string name="begin">Begin</string>
+    <string name="settings">Settings</string>
+    <string name="thickness">Thickness</string>
+    <string name="colour">Colour</string>
+    <string name="mode">Mode</string>
+    <string name="clear_canvas">Clear Canvas</string>
+
+</resources>
